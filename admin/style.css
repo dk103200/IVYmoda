@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    outline: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: 100px;
+    width: 100vw;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+.admin-content {
+    padding-top: 50px;
+    display: flex;
+}
+
+.admin-left {
+    background-color: #ddd;
+    width: 20%;
+    height: 100vh;
+    padding: 30px 24px;
+}
+
+.admin-left>ul>li>a {
+    font-weight: bold;
+}
+
+.admin-left ul li {
+    margin: 6px 0;
+}
+
+.admin-left ul ul {
+    margin-left: 20px;
+}
+
+.admin-right {
+    width: 100%;
+    padding: 12px 12px 100px;
+}
+
+.admin-right select,
+.admin-right input {
+    display: block;
+    height: 30px;
+    color: #333;
+    width: 300px;
+    padding-left: 12px;
+    margin: 10px 50px;
+}
+
+.admin-right button {
+    display: block;
+    margin: 12px 100px;
+    float: right;
+    height: 34px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: #ccc;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.admin-right button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Category list */
+
+table {
+    border-collapse: collapse;
+}
+
+.admin-category-list table {
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.admin-category-list th,
+.admin-category-list td {
+    padding: 6px;
+    border: 1px solid #ddd;
+}
+
+.admin-category-list td a {
+    display: inline-block;
+    border: none;
+    background-color: #ddd;
+    margin: 0 12px;
+    padding: 6px 16px;
+}
+
+.admin-category-list td a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.admin-right textarea {
+    width: 80%;
+    padding: 12px;
+    height: 300px;
+    margin: 0 50px;
+}
+
+.admin-right label {
+    display: block;
+    margin: 12px 24px;
+}
+
+
+/* Category list */
